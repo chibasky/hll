@@ -69,7 +69,7 @@
 	- Added [[Night maps]] :
 		- [[Foy]] Warfare Night
 		- [[Purple Heart Lane]] Warfare Night
-		- [[Hurtgen Forest]] Warfare Night
+		- [[Hürtgen Forest]] Warfare Night
 		- [[Kursk]] Warfare Night
 	- Added additional [[Omaha Beach]] map variants:
 		- [[Warfare mode]]
@@ -126,7 +126,7 @@
 	- [Fixed] The player is unable to deploy or to enter the Change Role menu in certain scenarios after they've been switched to the other team via RCon during the last 3 seconds of deployment
 	- [Fixed] The Anti-Tank gun turret will collide with vehicles, potentially causing collision/physics issues
 	- [Fixed] Missing glass in [[Opel Blitz]] asset
-	- [Fixed] [[Eastern Wood Peewee]] can be heard in [[Hurtgen Forest]] Map
+	- [Fixed] [[Eastern Wood Peewee]] can be heard in [[Hürtgen Forest]] Map
 	- [Fixed] Rebinding W A S or D in Infantry, Driver and Admin tabs will allow two bindings on one key.
 	- [Fixed] Rebinding W A S or D to common and relaunching the title will rebind in Infantry, Driver and Admin Tabs.
 	- [Fixed] [[Garrison]]s and [[Outpost]]s render distances vary based on map
@@ -160,7 +160,7 @@
 	- [Fixed] Multiple instances of floating or misaligned assets
 	- [Fixed] Adjustments to player collision across a number of assets
 	- [Fixed] Adjustments to LoD settings across a number of assets
-- [[Hurtgen Forest]]
+- [[Hürtgen Forest]]
 	- [Fixed] Adjustments to player collision across a number of assets
 	- [Fixed] Adjustments to LoD settings across a number of assets
 - SME
