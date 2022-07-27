@@ -207,6 +207,7 @@
  :publishing/all-pages-public? true
  :feature/enable-timetracking? false
  :feature/enable-flashcards? false
+ :graph/settings {:journal? false, :builtin-pages? false}
 
  ;; Properties to exclude from having property pages
  ;; E.g. #{:duration :author}
