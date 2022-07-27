@@ -1,1 +1,0 @@
-- [[Map]], [[US]] vs [[Germany]].
