@@ -1,0 +1,1 @@
+- An ability that can be used by a [[Commander]].

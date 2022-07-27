@@ -1,0 +1,1 @@
+- A place where your entire [[Team]] can [[Spawn]].  People like garrisons.
