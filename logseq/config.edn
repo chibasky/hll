@@ -20,11 +20,7 @@
  :default-templates
  {:journals ""}
 
- ;; Whether to enable hover on tooltip preview feature
- ;; Default is true, you can also toggle this via setting page
  :ui/enable-tooltip? true
-
- ;; Enable Block timestamp
  :feature/enable-block-timestamps? false
 
  ;; Disable Built-in Scheduled and deadline Query
@@ -48,12 +44,6 @@
  ;; 2. `:four-spaces` as four spaces
  ;; 3. `:two-spaces` as two spaces
  ;; :export/bullet-indentation :tab
-
-
- ;; When :all-pages-public? true, export repo would export all pages within that repo.
- ;; Regardless of whether you've set any page to public or not.
- ;; Example:
- ;; :publishing/all-pages-public? true
 
  ;; Specify default home page and sidebar status for Logseq
  ;; If not specified, Logseq default opens journals page on startup
@@ -215,6 +205,8 @@
  ;; Enable all your properties to have corresponding pages
  :property-pages/enabled? true
  :publishing/all-pages-public? true
+ :feature/enable-timetracking? false
+ :feature/enable-flashcards? false
 
  ;; Properties to exclude from having property pages
  ;; E.g. #{:duration :author}
@@ -227,30 +219,9 @@
  ;;  :enabled-in-timestamped-blocks false ;don't display logbook at all
  ;; }
 
- ;; Mobile photo uploading setup
- ;; :mobile/photo
- ;; {:allow-editing? true}
-
- ;; Mobile features options
- ;; Gestures
- ;; :mobile
- ;; {:gestures/disabled-in-block-with-tags ["kanban"]}
-
  ;; Extra CodeMirror options
  ;; :editor/extra-codemirror-options {:keyMap "emacs" :lineWrapping true}
 
  ;; ignore #+keyword: for parsing page references in orgmode
  ;; :ignored-page-references-keywords #{"author" "startup"}
-
- ;; Quick capture templates on mobile for recieving contents from other apps.
- ;; Each template contains three elements {time}, {text} and {url}, which can be auto-expanded
- ;; by received contents from other apps. Note: the {} cannot be omitted.
- ;; - {time}: capture time
- ;; - {text}: text that users selected before sharing.
- ;; - {url}: url or assets path for media files stored in Logseq.
- ;; You can also reorder them, or even only use one or two of them in the template.
- ;; You can also insert or format any text in the template as shown in the following examples.
- ;; :quick-capture-templates
- ;; {:text "[[quick capture]] **{time}**: {text} from {url}"
- ;;  :media "[[quick capture]] **{time}**: {url}"}
  }
