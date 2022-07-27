@@ -1,7 +1,7 @@
 on:
   push:
     branches: [main]
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   build:
@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Logseq Publish 🚩
-        uses: pengx17/logseq-publish@v0.1
+        uses: pengx17/logseq-publish@main
       - name: add a nojekyll file
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
       - name: Deploy 🚀
@@ -18,3 +18,4 @@ jobs:
           branch: gh-pages
           folder: www
           clean: true
+          single-commit: true
