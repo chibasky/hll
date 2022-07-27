@@ -1,1 +1,6 @@
 - An ability that can be used by a [[Commander]].
+- List of abilities
+	- [[Airhead]]
+	- [[Ammo drop ability]]
+	- [[Precision Strike]]
+	- [[Strafing run]]

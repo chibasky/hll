@@ -1,1 +1,1 @@
-- A [[Commander ability]].  Drops from the sky then acts as a temporary [[Garrison]].
+- Drops from the sky then acts as a temporary [[Garrison]].

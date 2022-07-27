@@ -1,0 +1,13 @@
+- List of maps
+	- [[Carentan]]
+	- [[Foy]]
+	- [[Hill 400]]
+	- [[Hürtgen Forest]]
+	- [[Kursk]]
+	- [[Omaha Beach]]
+	- [[Purple Heart Lane]]
+	- [[Remagen]]
+	- [[Sainte-Mère-Église]]
+	- [[Sainte-Marie-du-Mont]]
+	- [[Stalingrad]]
+	- [[Utah Beach]]

@@ -1,27 +1,27 @@
 - Vehicles
 	- Added new US “M4A3 75w” medium tank
 	- Added Machine guns to Half-tracks (M2 Browning, MG42)
-	- Reimplemented the German “Panther” as a heavy tank with updated [[Smart materials]]
+	- Reimplemented the German [[Panther]] as a heavy tank with updated [[Smart materials]]
 	- Updated [[Tiger]] with new camo pattern
 	- Updated [[Panzer IV]] with new camo pattern
 	- Updated [[Luchs]] with new camo pattern
 - Weapons
 	- Added [[Flare gun]]s (LP-42, SPSh-42, AN-M8)
 - Loadouts
-	- Added [[Flare gun]] to Spotter lvl 3 “Scout” loadout
-	- Moved Ammo Crate from Spotter lvl 3 “Scout” to Spotter lvl 1 “Standard Issue” loadout
+	- Added [[Flare gun]] to [[Spotter]] lvl 3 “Scout” loadout
+	- Moved Ammo Crate from [[Spotter]] lvl 3 “Scout” to [[Spotter]] lvl 1 “Standard Issue” loadout
 - Cosmetics
 	- Added 2 new [[DLC]] uniforms for the [[Commander]] role
 		- [[Upper Echelon]]
 		- [[Red Marshall]]
 - Gameplay/Features
-	- Added the following new [[Commander]] Abilities:
+	- Added the following new [[Commander ability]]s:
 		- [[Precision Strike]]
 		- [[Germany]] : Stuka Dive Bomb
 		- [[US]]: x2 P-47 Bombs
 		- [[Soviet]] : IL-2 Rocket Strafe
-		- Ammo Drop
-- Improved animations for the strafing run [[Commander ability]]
+		- [[Ammo drop ability]]
+- Improved animations for the [[Strafing run]].
 - Added separate [[Volume]] controls for Proximity, Unit and Leadership [[VOIP]] channels
 - Added gore models for the [[Soviet]] faction (previously used [[US]] models)
 - Primary Weapons are now displayed on the player’s back while not equipped
@@ -61,23 +61,23 @@
 	- Rain Hell
 	- Beat the DEV (Medic)
 - Maps
-	- Added new [[Remagen]] [[Map]]:
+	- Added new [[Remagen]] [[Map]]s:
 		- [[Warfare mode]]
-		- Warfare Night
-		- Offensive GER
-		- Offensive US
-	- Added [[Night maps]] :
-		- [[Foy]] Warfare Night
-		- [[Purple Heart Lane]] Warfare Night
-		- [[Hürtgen Forest]] Warfare Night
-		- [[Kursk]] Warfare Night
-	- Added additional [[Omaha Beach]] map variants:
+		- [[Warfare mode]] [[Night map]]
+		- [[Offensive mode]]  for [[Germany]]
+		- [[Offensive mode]] for [[US]]
+	- Added [[Warfare mode]] [[Night map]]s for:
+		- [[Foy]]
+		- [[Purple Heart Lane]]
+		- [[Hürtgen Forest]]
+		- [[Kursk]]
+	- Added additional [[Omaha Beach]] variants:
 		- [[Warfare mode]]
 		- [[Offensive mode]] for [[Germany]]
 - Reworked [[HQ]]s on [[Kursk]] to provide additional cover for each faction
 - HUD/UI
 	- Improved legibility of Enemy Recon Markings on the Tactical Map
-- Audio effects
+- [[Audio]] effects
 	- Shortened incoming [[Artillery]] whistle SFX
 	- Adjusted bullet crack SFX for the MG42
 	- Adjusted [[Foy]] map ambience
@@ -86,25 +86,25 @@
 	- Balanced end of round [[Music]] volume
 	- Adjusted flesh impact SFX
 	- Adjusted wood impact SFX
-	- Adjusted smoke grenade SFX
+	- Adjusted [[Smoke grenade]] SFX
 	- Additional minor sound tweaks and improvements
 - Visual effects
 	- Updated TPP Blood Hit FX
-	- Added lighting to the following in-game FX for better visuals on [[Night maps]]:
+	- Added lighting to the following in-game FX for better visuals on [[Night map]]:
 		- Muzzle Flashes
 		- [[Artillery]] cannons
 		- Tank cannons
 		- Panzerschreck/Bazooka rockets
-	- Adjusted artillery impact and vehicle explosion FXs
+	- Adjusted [[Artillery]] impact and vehicle explosion FXs
 - Server administration
 	- Added ‘Aim Laser’ to indicate where a player is aiming
 	- [Fixed] The prompt displayed when the player is banned via Votekick mentions that the ban is from the administrator
 - Bug Fixes
-	- [Fixed] Unusual camera stuttering when vaulting over an object while the server/player has a high ping
+	- [Fixed] Unusual camera stuttering when vaulting over an object while the server/player has a high [[Ping]].
 	- [Fixed] Disconnecting and Reconnecting from [[VoIP]] while making [[Microphone]] check will cause VoIP to permanently stop working.
 	- [Fixed] [[Soviet]] Recon Tank doesn't trigger any SFX when entering the vehicle or switching positions.
 	- [Fixed] [[Panzer IV]] has incorrect armour collision
-	- [Fixed] The player cannot be heard if they switch very fast between the VOIP channels
+	- [Fixed] The player cannot be heard if they switch very fast between the [[VOIP]] channels
 	- [Fixed] Players are unable to hear enemy Half-track SFX
 	- [Fixed] M97 Trench Gun cannot penetrate any materials.
 	- [Fixed] Outpost can be placed next to downed enemy but is instantly destroyed.
@@ -121,9 +121,9 @@
 	- [Fixed] Players do not get suppressed from bombing run fire when in artillery reload seat
 	- [Fixed] Players do not get suppressed from strafing run fire when in artillery reload seat
 	- [Fixed] Deploying an LMG on a wooden beam of a specific barn causes graphical issue and un-deploys the LMG.
-	- [Fixed] Half-Track spawn icon appears when the engine is on in Locked enemy territory
+	- [Fixed] Half-Track [[Spawn]] icon appears when the engine is on in Locked enemy territory
 	- [Fixed] During idle animation the left hand is misaligned and clips through the weapon while holding any Rifle or Sniper Rifle
-	- [Fixed] The player is unable to deploy or to enter the Change Role menu in certain scenarios after they've been switched to the other team via RCon during the last 3 seconds of deployment
+	- [Fixed] The player is unable to deploy or to enter the Change Role menu in certain scenarios after they've been switched to the other team via [[RCon]] during the last 3 seconds of deployment
 	- [Fixed] The Anti-Tank gun turret will collide with vehicles, potentially causing collision/physics issues
 	- [Fixed] Missing glass in [[Opel Blitz]] asset
 	- [Fixed] [[Eastern Wood Peewee]] can be heard in [[Hürtgen Forest]] Map
@@ -135,11 +135,11 @@
 	- [Fixed] When a player quickly switches between [[VOIP]] channels, the nametag of the player will not show up or will show up for a brief period of time
 	- [Fixed] Gear change animation plays twice in Soviet vehicles
 	- [Fixed] Occasions where nametags appeared in Streamer Mode
-	- [Fixed] Poor network conditions will cause bolt action rifles to not fire when inputting.
+	- [Fixed] Poor network conditions will cause [[Bolt action rifle]]s to not fire when inputting.
 	- [Fixed] [[FG42]] bullets land higher than the crosshair
-	- [Fixed] [[Soviet]] Half-Track have no SFX while being repaired at a repair station
-	- [Fixed] The map images on the 'Maps' section of the Field Manual are low resolution
-	- [Fixed] There is a corrupted texture in the viewports of certain tanks.
+	- [Fixed] [[Soviet]] Half-Track have no SFX while being repaired at a [[Repair station]]
+	- [Fixed] The map images on the 'Maps' section of the [[Field Manual]] are low resolution.
+	- [Fixed] There is a corrupted texture in the viewports of certain [[Tank]]s.
 	- [Fixed] Outside parts of the [[Panzer IV]] is present in the viewport at FoV higher than 90
 	- [Fixed] [[Airhead]]s will deploy faster than the icon indicates
 	- [Fixed] The prompt that appears after a player is kicked appears in [[German language]]
@@ -163,7 +163,7 @@
 - [[Hürtgen Forest]]
 	- [Fixed] Adjustments to player collision across a number of assets
 	- [Fixed] Adjustments to LoD settings across a number of assets
-- SME
+- [[Sainte-Mère-Église]]
 	- [Fixed] Some instances where the player could not deploy their MG on an asset
 	- [Fixed] Multiple instances of floating or misaligned assets
 	- [Fixed] Adjustments to player collision across a number of assets
