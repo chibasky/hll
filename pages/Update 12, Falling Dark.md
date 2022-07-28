@@ -1,7 +1,11 @@
-- Vehicles
+- Released [[2022]] on [[Jul 19th, 2022]].
+- Links
+	- [[Steam]]
+		- https://store.steampowered.com/news/app/686810/view/5242770020237047495
+- [[Vehicle]]s
 	- Added new [[US]] “M4A3 75w” medium [[Tank]]
-	- Added Machine guns to Half-tracks (M2 Browning, MG42)
-	- Reimplemented the German [[Panther]] as a heavy [[Tank]] with updated [[Smart materials]]
+	- Added Machine guns to [[Half-track]]s (M2 Browning, MG42)
+	- Reimplemented the [[Panther]] as a heavy [[Tank]] with updated [[Smart materials]]
 	- Updated [[Tiger]] with new camo pattern
 	- Updated [[Panzer IV]] with new camo pattern
 	- Updated [[Luchs]] with new camo pattern
@@ -22,8 +26,8 @@
 		- [[Soviet]] : IL-2 Rocket Strafe
 		- [[Ammo drop ability]]
 - Improved animations for the [[Strafing run]].
-- Added separate [[Volume]] controls for Proximity, Unit and Leadership [[VOIP]] channels
-- Added gore models for the [[Soviet]] faction (previously used [[US]] models)
+- Added separate [[Volume]] controls for Proximity, Unit and Leadership [[VoIP]] channels
+- Added [[Gore]] models for the [[Soviet]] faction (previously used [[US]] models)
 - Primary Weapons are now displayed on the player’s back while not equipped
 - Added the ability to interrupt weapon reloads
 - Fortifications can now be snapped together using the default “LEFT ALT” keybinding
@@ -31,8 +35,8 @@
 - Updated Personal Stats screen with new stats and an organized layout
 - [[Tank]] crews are now notified when the gunner destroys an [[Outpost]]
 - [[Vehicle wreck]]s can now be destroyed using [[Tank]] shells, AT-guns, [[Rocket]]s and [[Satchel]]s
-- Increased AT-Gun deploy timer from 3 to 8 seconds
-- Reduced AT-Gun damage from 600 to 350
+- Increased AT-Gun deploy timer from 3 to 8 [[Second]]s
+- Reduced AT-Gun [[Damage]] from 600 to 350
 - Added the following new [[Achievement]]s:
 	- Not a bridge too far!
 	- [[MG]] goes BRRRR!
@@ -59,7 +63,7 @@
 	- Rock, Paper, Tank!
 	- And so it begins...
 	- Rain Hell
-	- Beat the DEV (Medic)
+	- Beat the DEV ([[Medic]])
 - Maps
 	- Added new [[Remagen]] [[Map]]s:
 		- [[Warfare mode]]
@@ -79,7 +83,7 @@
 	- Improved legibility of Enemy Recon Markings on the Tactical Map
 - [[Audio]] effects
 	- Shortened incoming [[Artillery]] whistle SFX
-	- Adjusted bullet crack SFX for the MG42
+	- Adjusted bullet crack SFX for the [[MG42]]
 	- Adjusted [[Foy]] map ambience
 	- Balanced volume of grenade throw SFX
 	- Added sound occlusion to explosion SFX
@@ -101,10 +105,10 @@
 	- [Fixed] The prompt displayed when the player is banned via Votekick mentions that the ban is from the administrator
 - Bug Fixes
 	- [Fixed] Unusual camera stuttering when vaulting over an object while the server/player has a high [[Ping]].
-	- [Fixed] Disconnecting and Reconnecting from [[VoIP]] while making [[Microphone]] check will cause VoIP to permanently stop working.
+	- [Fixed] Disconnecting and Reconnecting from [[VoIP]] while making [[Microphone]] check will cause it to permanently stop working.
 	- [Fixed] [[Soviet]] Recon Tank doesn't trigger any SFX when entering the vehicle or switching positions.
 	- [Fixed] [[Panzer IV]] has incorrect armour collision
-	- [Fixed] The player cannot be heard if they switch very fast between the [[VOIP]] channels
+	- [Fixed] The player cannot be heard if they switch very fast between the [[VoIP]] channels
 	- [Fixed] Players are unable to hear enemy Half-track SFX
 	- [Fixed] M97 Trench Gun cannot penetrate any materials.
 	- [Fixed] Outpost can be placed next to downed enemy but is instantly destroyed.
@@ -115,7 +119,7 @@
 	- [Fixed] LMGs camera will lose its input when being deployed in another player
 	- [Fixed] Some Personal Stats are not saved when the player exits and reenters a server
 	- [Fixed] [[Offensive mode]] initial Deploy Timer counts down before any players have joined the server
-	- [Fixed] [[VOIP]] may not work immediately after creating a unit for 20-30 seconds
+	- [Fixed] [[VoIP]] may not work immediately after creating a unit for 20-30 seconds
 	- [Fixed] Career and Role EXP may not correctly display in change role menu if gained just before a match ends.
 	- [Fixed] Two players can trigger the bandaging animation if the bandage is used at the same time
 	- [Fixed] Players do not get suppressed from bombing run fire when in artillery reload seat
@@ -132,7 +136,7 @@
 	- [Fixed] [[Garrison]]s and [[Outpost]]s render distances vary based on map
 	- [Fixed] [[Airhead]] is destroyed by friendly grenades
 	- [Fixed] The Damaged Engine Fire PFX always face directly toward the player
-	- [Fixed] When a player quickly switches between [[VOIP]] channels, the nametag of the player will not show up or will show up for a brief period of time
+	- [Fixed] When a player quickly switches between [[VoIP]] channels, the nametag of the player will not show up or will show up for a brief period of time
 	- [Fixed] Gear change animation plays twice in Soviet vehicles
 	- [Fixed] Occasions where nametags appeared in Streamer Mode
 	- [Fixed] Poor network conditions will cause [[Bolt action rifle]]s to not fire when inputting.

@@ -1,6 +1,9 @@
-- Source
-	- [[Steam]]:
+- Released [[2020]] on [[Jul 14th, 2020]].
+- Links
+	- [[Steam]]
 		- https://store.steampowered.com/news/app/686810/view/2609223645230578579
+	- [[Trailer]]
+		- https://www.youtube.com/watch?v=p_JXlYs9p_w
 - Animation
 	- FPP
 		- Our entire first person perspective animations have been overhauled in two ways - first in all the underlying systems, and then in the way the specific animations look. You can read more about this in the specific [[Developer Briefing]] [here](https://steamcommunity.com/games/686810/announcements/detail/2536038699697837955?snr=1_2108_9__2107).
@@ -191,7 +194,7 @@
 		- Fixed: [[Vehicle]] trail fx are kicking out far in front of the vehicle.
 		- Fixed: Manual bolt cycling.
 		- Fixed: Shadows are removed from the frontend (Barracks) when the user leaves a server.
-		- Fixed: Blood and Gore Decals not visible and causing SSAO/Lighting issues.
+		- Fixed: Blood and [[Gore]] Decals not visible and causing SSAO/Lighting issues.
 	- Armoured Gameplay
 		- We have begun taking a look at the armoured gameplay ahead of introducing new [[Vehicle]]s into the game. We will continue to work on more improvements as we iterate.
 		- Reduced the [[Damage]] that carries over from the tracks/wheels to the hull, so body shots are more effective and efficient than repeatedly shooting the tracks/wheels.
