@@ -1,0 +1,3 @@
+- List of supported consoles
+	- [[Xbox]]
+	- [[Playstation]]

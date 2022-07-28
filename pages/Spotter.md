@@ -1,0 +1,1 @@
+- The [[Squad leader]] of a [[Recon squad]].

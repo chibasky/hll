@@ -1,0 +1,1 @@
+- When one is destroyed it becomes a [[Vehicle wreck]].

@@ -1,1 +1,1 @@
-- Drops from the sky then acts as a temporary [[Garrison]].
+- Drops from the sky then acts as a temporary [[Garrison]] with a fairly long [[Spawn]] period.

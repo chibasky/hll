@@ -1,7 +1,7 @@
 - Vehicles
-	- Added new US “M4A3 75w” medium tank
+	- Added new [[US]] “M4A3 75w” medium [[Tank]]
 	- Added Machine guns to Half-tracks (M2 Browning, MG42)
-	- Reimplemented the German [[Panther]] as a heavy tank with updated [[Smart materials]]
+	- Reimplemented the German [[Panther]] as a heavy [[Tank]] with updated [[Smart materials]]
 	- Updated [[Tiger]] with new camo pattern
 	- Updated [[Panzer IV]] with new camo pattern
 	- Updated [[Luchs]] with new camo pattern
@@ -27,15 +27,15 @@
 - Primary Weapons are now displayed on the player’s back while not equipped
 - Added the ability to interrupt weapon reloads
 - Fortifications can now be snapped together using the default “LEFT ALT” keybinding
-- Adjusted MG deployment logic to prevent players from hiding their model inside objects
+- Adjusted [[MG]] deployment logic to prevent players from hiding their model inside objects
 - Updated Personal Stats screen with new stats and an organized layout
-- Tank crews are now notified when the gunner destroys an OP
-- [[Vehicle wreck]]s can now be destroyed using tank shells, AT-guns, rockets and satchels
+- [[Tank]] crews are now notified when the gunner destroys an [[Outpost]]
+- [[Vehicle wreck]]s can now be destroyed using [[Tank]] shells, AT-guns, [[Rocket]]s and [[Satchel]]s
 - Increased AT-Gun deploy timer from 3 to 8 seconds
 - Reduced AT-Gun damage from 600 to 350
 - Added the following new [[Achievement]]s:
 	- Not a bridge too far!
-	- MG goes BRRRR!
+	- [[MG]] goes BRRRR!
 	- You can run, but you can't hide!
 	- I don't need no Nightvision Goggles!
 	- Soldier of the Month
@@ -93,7 +93,7 @@
 	- Added lighting to the following in-game FX for better visuals on [[Night map]]:
 		- Muzzle Flashes
 		- [[Artillery]] cannons
-		- Tank cannons
+		- [[Tank]] cannons
 		- Panzerschreck/Bazooka rockets
 	- Adjusted [[Artillery]] impact and vehicle explosion FXs
 - Server administration
@@ -164,7 +164,7 @@
 	- [Fixed] Adjustments to player collision across a number of assets
 	- [Fixed] Adjustments to LoD settings across a number of assets
 - [[Sainte-Mère-Église]]
-	- [Fixed] Some instances where the player could not deploy their MG on an asset
+	- [Fixed] Some instances where the player could not deploy their [[MG]] on an asset
 	- [Fixed] Multiple instances of floating or misaligned assets
 	- [Fixed] Adjustments to player collision across a number of assets
 	- [Fixed] Adjustments to LoD settings across a number of assets

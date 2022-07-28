@@ -1,1 +1,1 @@
-- [[Map]]. [[Soviet]] vs [[Germany]].
+- [[Soviet]] vs [[Germany]].

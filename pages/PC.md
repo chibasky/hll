@@ -1,0 +1,2 @@
+- Prototype version where ideas were trialled before the release of the [[Gema]] on [[Console]].
+- As of [[2022]] only [[Steam]] is supported.

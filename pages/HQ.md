@@ -1,1 +1,1 @@
-- A permanent, undestroyable [[Garrison]] with a brief spawn period.
+- A permanent, undestroyable [[Garrison]] with a brief [[Spawn]] period.
