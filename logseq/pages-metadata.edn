@@ -1,4 +1,10 @@
-[{:block/name "2022",
+[{:block/name "2020",
+  :block/created-at 1659038933927,
+  :block/updated-at 1659038933927}
+ {:block/name "2021",
+  :block/created-at 1659038933761,
+  :block/updated-at 1659038933761}
+ {:block/name "2022",
   :block/created-at 1658962272969,
   :block/updated-at 1658962340536}
  {:block/name "a",
@@ -10,9 +16,15 @@
  {:block/name "airhead",
   :block/created-at 1658953893072,
   :block/updated-at 1658962544296}
+ {:block/name "ammo box",
+  :block/created-at 1659038933981,
+  :block/updated-at 1659038933981}
  {:block/name "ammo drop ability",
   :block/created-at 1658958247583,
   :block/updated-at 1658960457208}
+ {:block/name "anti-aliasing",
+  :block/created-at 1659038933958,
+  :block/updated-at 1659038933958}
  {:block/name "artillery",
   :block/created-at 1658953893064,
   :block/updated-at 1658953893064}
@@ -25,15 +37,24 @@
  {:block/name "bolt action rifle",
   :block/created-at 1658960695615,
   :block/updated-at 1658960695615}
+ {:block/name "breakthrough",
+  :block/created-at 1659038933941,
+  :block/updated-at 1659038933941}
  {:block/name "c",
   :block/created-at 1658954123245,
   :block/updated-at 1658954123245}
+ {:block/name "camera",
+  :block/created-at 1659038933957,
+  :block/updated-at 1659038933957}
  {:block/name "canceled",
   :block/created-at 1658954123245,
   :block/updated-at 1658954123245}
  {:block/name "cancelled",
   :block/created-at 1658954123245,
   :block/updated-at 1658954123245}
+ {:block/name "capture time",
+  :block/created-at 1659038933940,
+  :block/updated-at 1659038933940}
  {:block/name "card",
   :block/created-at 1658954123245,
   :block/updated-at 1658954123245}
@@ -52,6 +73,30 @@
  {:block/name "contents",
   :block/created-at 1658954123245,
   :block/updated-at 1658954123245}
+ {:block/name "cooldown",
+  :block/created-at 1659038933947,
+  :block/updated-at 1659038933947}
+ {:block/name "cost",
+  :block/created-at 1659038933947,
+  :block/updated-at 1659038933947}
+ {:block/name "crash",
+  :block/created-at 1659038933978,
+  :block/updated-at 1659038933978}
+ {:block/name "damage",
+  :block/created-at 1659038933967,
+  :block/updated-at 1659038933967}
+ {:block/name "dec 7th, 2021",
+  :block/created-at 1659038933761,
+  :block/updated-at 1659038933761}
+ {:block/name "defeat",
+  :block/created-at 1659038933940,
+  :block/updated-at 1659038933940}
+ {:block/name "developer briefing",
+  :block/created-at 1659038933929,
+  :block/updated-at 1659038933929}
+ {:block/name "discord",
+  :block/created-at 1659039214734,
+  :block/updated-at 1659039241892}
  {:block/name "dlc",
   :block/created-at 1658958727969,
   :block/updated-at 1658958727969}
@@ -61,24 +106,51 @@
  {:block/name "done",
   :block/created-at 1658954123245,
   :block/updated-at 1658954123245}
+ {:block/name "early access",
+  :block/created-at 1659038933953,
+  :block/updated-at 1659038933953}
  {:block/name "eastern wood peewee",
   :block/created-at 1658953893069,
   :block/updated-at 1658958710265}
+ {:block/name "enemy",
+  :block/created-at 1659038933937,
+  :block/updated-at 1659038933937}
+ {:block/name "enemy territory",
+  :block/created-at 1659038933950,
+  :block/updated-at 1659038933950}
+ {:block/name "engineer",
+  :block/created-at 1659038933978,
+  :block/updated-at 1659038933978}
  {:block/name "favorites",
   :block/created-at 1658954123245,
   :block/updated-at 1658954123245}
+ {:block/name "feedback",
+  :block/created-at 1659038933931,
+  :block/updated-at 1659038933931}
  {:block/name "fg42",
   :block/created-at 1658953893071,
   :block/updated-at 1658953893071}
  {:block/name "field manual",
   :block/created-at 1658960711318,
   :block/updated-at 1658960711318}
+ {:block/name "flak battery",
+  :block/created-at 1659038933971,
+  :block/updated-at 1659038933971}
  {:block/name "flare gun",
   :block/created-at 1658953893056,
   :block/updated-at 1658953893056}
  {:block/name "foy",
   :block/created-at 1658953893074,
   :block/updated-at 1658962005402}
+ {:block/name "fps",
+  :block/created-at 1659038933978,
+  :block/updated-at 1659038933978}
+ {:block/name "freelook",
+  :block/created-at 1659038933979,
+  :block/updated-at 1659038933979}
+ {:block/name "front line",
+  :block/created-at 1659038933939,
+  :block/updated-at 1659038933939}
  {:block/name "garrison",
   :block/created-at 1658953893070,
   :block/updated-at 1658959111230}
@@ -91,6 +163,15 @@
  {:block/name "germany",
   :block/created-at 1658953893063,
   :block/updated-at 1658953893063}
+ {:block/name "gore",
+  :block/created-at 1659038933967,
+  :block/updated-at 1659038933967}
+ {:block/name "half-track",
+  :block/created-at 1659038934293,
+  :block/updated-at 1659038934293}
+ {:block/name "helmet",
+  :block/created-at 1659038933961,
+  :block/updated-at 1659038933961}
  {:block/name "hill 400",
   :block/created-at 1658953893074,
   :block/updated-at 1658962016246}
@@ -106,6 +187,12 @@
  {:block/name "infantry squad",
   :block/created-at 1658962763147,
   :block/updated-at 1658962763147}
+ {:block/name "internet",
+  :block/created-at 1659038933963,
+  :block/updated-at 1659038933963}
+ {:block/name "jul 14th, 2020",
+  :block/created-at 1659038933926,
+  :block/updated-at 1659038933926}
  {:block/name "jul 19th, 2022",
   :block/created-at 1658954519408,
   :block/updated-at 1658954556043}
@@ -113,29 +200,65 @@
   :block/created-at 1658953804999,
   :block/updated-at 1658962313658}
  {:block/name "jul 28th, 2022",
-  :block/created-at 1658962803474,
-  :block/updated-at 1658962803474}
+  :block/created-at 1659039158819,
+  :block/updated-at 1659039158819}
  {:block/name "kursk",
   :block/created-at 1658953893073,
   :block/updated-at 1658962021921}
  {:block/name "later",
   :block/created-at 1658954123245,
   :block/updated-at 1658954123245}
+ {:block/name "links",
+  :block/created-at 1659039241089,
+  :block/updated-at 1659039241089}
+ {:block/name "loading",
+  :block/created-at 1659038933969,
+  :block/updated-at 1659038933969}
+ {:block/name "logistics",
+  :block/created-at 1659038933981,
+  :block/updated-at 1659038933981}
  {:block/name "luchs",
   :block/created-at 1658953893055,
   :block/updated-at 1658958388537}
+ {:block/name "manpower",
+  :block/created-at 1659038933946,
+  :block/updated-at 1659038933946}
  {:block/name "map",
   :block/created-at 1658958138560,
   :block/updated-at 1658960937190}
+ {:block/name "medic",
+  :block/created-at 1659038934302,
+  :block/updated-at 1659038934302}
+ {:block/name "menu",
+  :block/created-at 1659038933944,
+  :block/updated-at 1659038933944}
+ {:block/name "metagame",
+  :block/created-at 1659038933934,
+  :block/updated-at 1659038933934}
+ {:block/name "metres",
+  :block/created-at 1659038933938,
+  :block/updated-at 1659038933938}
  {:block/name "mg",
   :block/created-at 1658962185904,
   :block/updated-at 1658962185904}
+ {:block/name "mg42",
+  :block/created-at 1659038934307,
+  :block/updated-at 1659038934307}
  {:block/name "microphone",
   :block/created-at 1658958195187,
   :block/updated-at 1658958195187}
+ {:block/name "motion capture",
+  :block/created-at 1659038933929,
+  :block/updated-at 1659038933929}
+ {:block/name "mouse",
+  :block/created-at 1659038933959,
+  :block/updated-at 1659038933959}
  {:block/name "music",
   :block/created-at 1658958163970,
   :block/updated-at 1658958163970}
+ {:block/name "neutral territory",
+  :block/created-at 1659038933935,
+  :block/updated-at 1659038933935}
  {:block/name "night map",
   :block/created-at 1658958134224,
   :block/updated-at 1658958134224}
@@ -154,6 +277,9 @@
  {:block/name "opel blitz",
   :block/created-at 1658953893069,
   :block/updated-at 1658953893069}
+ {:block/name "optimisation",
+  :block/created-at 1659038933951,
+  :block/updated-at 1659038933951}
  {:block/name "outpost",
   :block/created-at 1658953893070,
   :block/updated-at 1658959190289}
@@ -166,9 +292,18 @@
  {:block/name "pc",
   :block/created-at 1658954556042,
   :block/updated-at 1658962473685}
+ {:block/name "performance",
+  :block/created-at 1659038933951,
+  :block/updated-at 1659038933951}
+ {:block/name "physics",
+  :block/created-at 1659038933978,
+  :block/updated-at 1659038933978}
  {:block/name "ping",
   :block/created-at 1658960744433,
   :block/updated-at 1658960744433}
+ {:block/name "plane",
+  :block/created-at 1659038933946,
+  :block/updated-at 1659038933946}
  {:block/name "playstation",
   :block/created-at 1658962397693,
   :block/updated-at 1658962397693}
@@ -187,12 +322,18 @@
  {:block/name "red marshall",
   :block/created-at 1658953893057,
   :block/updated-at 1658958850058}
+ {:block/name "redeploy",
+  :block/created-at 1659038933944,
+  :block/updated-at 1659038933944}
  {:block/name "remagen",
   :block/created-at 1658953893076,
   :block/updated-at 1658962000684}
  {:block/name "repair station",
   :block/created-at 1658960833834,
   :block/updated-at 1658960833834}
+ {:block/name "resupply station",
+  :block/created-at 1659038933976,
+  :block/updated-at 1659038933976}
  {:block/name "rocket",
   :block/created-at 1658961967560,
   :block/updated-at 1658961967560}
@@ -205,6 +346,9 @@
  {:block/name "satchel",
   :block/created-at 1658961975688,
   :block/updated-at 1658961975688}
+ {:block/name "second",
+  :block/created-at 1659038933963,
+  :block/updated-at 1659038933963}
  {:block/name "smart materials",
   :block/created-at 1658953893054,
   :block/updated-at 1658958504654}
@@ -235,6 +379,24 @@
  {:block/name "strafing run",
   :block/created-at 1658960354652,
   :block/updated-at 1658960354652}
+ {:block/name "strongpoint",
+  :block/created-at 1659038933965,
+  :block/updated-at 1659038933965}
+ {:block/name "structure",
+  :block/created-at 1659038933933,
+  :block/updated-at 1659038933933}
+ {:block/name "sun",
+  :block/created-at 1659038933976,
+  :block/updated-at 1659038933976}
+ {:block/name "supply drop",
+  :block/created-at 1659038933960,
+  :block/updated-at 1659038933960}
+ {:block/name "support",
+  :block/created-at 1659038933981,
+  :block/updated-at 1659038933981}
+ {:block/name "suppression",
+  :block/created-at 1659038933977,
+  :block/updated-at 1659038933977}
  {:block/name "tank",
   :block/created-at 1658958355642,
   :block/updated-at 1658958872935}
@@ -244,18 +406,42 @@
  {:block/name "tank crew",
   :block/created-at 1658962757891,
   :block/updated-at 1658962827259}
+ {:block/name "tank crewman",
+  :block/created-at 1659038933980,
+  :block/updated-at 1659038933980}
  {:block/name "team",
   :block/created-at 1658959111230,
   :block/updated-at 1658959111230}
+ {:block/name "teamkill",
+  :block/created-at 1659038933943,
+  :block/updated-at 1659038933943}
  {:block/name "tiger",
   :block/created-at 1658953893055,
   :block/updated-at 1658958373516}
  {:block/name "todo",
   :block/created-at 1658954123245,
   :block/updated-at 1658954123245}
+ {:block/name "trailer",
+  :block/created-at 1659038933928,
+  :block/updated-at 1659038933928}
+ {:block/name "transport vehicle",
+  :block/created-at 1659038933943,
+  :block/updated-at 1659038933943}
+ {:block/name "uniform",
+  :block/created-at 1659038933980,
+  :block/updated-at 1659038933980}
+ {:block/name "update 11, outflank",
+  :block/created-at 1659038933763,
+  :block/updated-at 1659038933763}
  {:block/name "update 12, falling dark",
   :block/created-at 1658953891903,
   :block/updated-at 1658962198820}
+ {:block/name "update 7, battle of carentan",
+  :block/created-at 1659038933986,
+  :block/updated-at 1659038933986}
+ {:block/name "update 8",
+  :block/created-at 1659038933957,
+  :block/updated-at 1659038933957}
  {:block/name "upper echelon",
   :block/created-at 1658953893057,
   :block/updated-at 1658958740186}
@@ -271,9 +457,15 @@
  {:block/name "vehicle wreck",
   :block/created-at 1658958073511,
   :block/updated-at 1658958073511}
+ {:block/name "victory",
+  :block/created-at 1659038933940,
+  :block/updated-at 1659038933940}
+ {:block/name "vierville",
+  :block/created-at 1659038933933,
+  :block/updated-at 1659038933933}
  {:block/name "voip",
   :block/created-at 1658953893071,
-  :block/updated-at 1658958998782}
+  :block/updated-at 1659039172727}
  {:block/name "volume",
   :block/created-at 1658958042304,
   :block/updated-at 1658958042304}
@@ -287,5 +479,8 @@
   :block/created-at 1658953893063,
   :block/updated-at 1658958939455}
  {:block/name "xbox",
-  :block/created-at 1658962389168, 
-  :block/updated-at 1658962389168}]
+  :block/created-at 1658962389168,
+  :block/updated-at 1658962389168}
+ {:block/name "zeroing",
+  :block/created-at 1659038933977, 
+  :block/updated-at 1659038933977}]
