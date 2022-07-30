@@ -1,6 +1,8 @@
 - An ability that can be used by a [[Commander]].
-- List of abilities
+- List of abilities in [[2022]]
 	- [[Airhead]]
 	- [[Ammo drop ability]]
 	- [[Precision Strike]]
 	- [[Strafing run]]
+- List of removed abilities as of [[2022]]
+	- [[Final Stand]]

@@ -1,0 +1,11 @@
+- [[2022 status]]
+	- A six-man squad.
+	- List of roles
+		- [[Officer]]
+		- [[Anti-tank soldier]]
+		- [[Assault]]
+		- [[Engineer]]
+		- [[Machine gunner]]
+		- [[Medic]]
+		- [[Rifleman]]
+		- [[Support]]

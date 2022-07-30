@@ -1,1 +1,17 @@
-- A type of [[Vehicle]].
+- A type of [[Vehicle]], operated by a [[Tank crew]].
+- [[2022 status]]
+	- List of tanks
+		- [[Germany]]
+			- [[Luchs]]
+			- [[Panther]]
+			- [[Panzer IV]]
+			- [[Tiger]]
+		- [[US]]
+			- [[M4A3 75w]]
+			- [[Jumbo 75]]
+			- [[Sherman 76]]
+	- List of parts of each tank
+		- [[Engine]]
+		- [[Hull]]
+		- [[Tank tracks]]
+		- [[Turret]]

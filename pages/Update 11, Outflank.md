@@ -1,20 +1,23 @@
 - Released [[2021]] on [[Dec 7th, 2021]].
-- Links
+- [[Links]]
 	- [[Steam]]
 		- https://store.steampowered.com/news/app/686810/view/3139568705206001184
+	- [[Trailer]]
+		- {{video https://www.youtube.com/watch?v=icKSP9H_c4c}}
 - [[Metagame]]
-	- Synced resource generation ([[Resource node]]s will no longer generate resources precisely 60 [[Second]]s from when they were placed but instead generate in sync with [[Ambient resource generation]])
+	- Synced [[Resource]] generation ([[Resource node]]s will no longer generate resources precisely 60 [[Second]]s from when they were placed but instead generate in sync with [[Ambient resource generation]])
 	- Removed the [[Final Stand]] [[Commander ability]]
 		- We are temporarily removing the ability as we look at alternative functions that are more balanced
 	- The Encouraged [[Commander ability]] now only generates additional resources provided by [[Resource node]]s
 	- Added Spawn Medium [[Tank]] as [[US]] [[Commander ability]]
 	- Added Spawn Light [[Tank]] as [[Commander ability]]
-	- Increased Heavy Tank [[Fuel]] costs from 400 to 600
+	- Increased Heavy [[Tank]] [[Fuel]] costs from 400 to 600
 	- Increased [[Jumbo 75]] [[Fuel]] cost from 300 to 500
 - [[Vehicle]] s
-	- Added [[Half-track]]s (all factions)
+	- Added [[Half-track]]s
+		- All [[Faction]]s
 	- Added [[Panzer IV]] ([[Germany]] Medium [[Tank]] )
-	- Temporarily Removed [[Panther]]
+	- Temporarily removed [[Panther]]
 		- We’ve decided to replace the Panther with the new [[Panzer IV]] as we look to rework its role and update its textures using our improved [[Smart materials]]
 	- [[Bombing run]] explosions now deal radial damage to Light Armoured parts of [[Vehicle]]s (Recon vehicles, [[Tank tracks]], etc.)
 	- Added [[Fire]] PFX to give a visual aid of when a [[Tank]]’s engine is destroyed
@@ -23,13 +26,13 @@
 	- Reduced the [[Damage]] of [[Recon vehicle]]s from `400` to `200`
 	- Increased [[Cooldown]] of the [[Sherman 76]] to be in line with other Heavy [[Tank]]s
 - Weapons
-	- Added [[Winchester 1897]] Trench Gun ([[US]] [[Level 3]] [[Engineer]] and [[Assault]])
-	- Added [[FG42]] - 20 Mag ([[Germany]] [[Automatic Rifleman]] [[Level 6]])
-	- Added [[FG42]] - 10 Mag Scoped ([[Germany]] [[Sniper]] [[Level 3]])
+	- Added [[Winchester 1897]] Trench Gun ([[US]] [[Role level 3]] [[Engineer]] and [[Assault]])
+	- Added [[FG 42]] - 20 Mag ([[Germany]] [[Automatic Rifleman]] [[Role level 6]] )
+	- Added [[FG 42]] - 10 Mag Scoped ([[Germany]] [[Sniper]] [[Role level 3]])
 	- Increased penetration power of [[Anti-tank gun]]s allowing them to penetrate Heavy armour if angled correctly
 	- [[Bazooka]]s and [[Panzerschreck]]s can now deal radial damage to [[Truck]]s
 - [[Loadout]]s
-	- Swapped the [[Level 3]] loadout with the [[Level 6]] loadout for the [[Germany]] and [[US]] [[Anti-tank soldier]]
+	- Swapped the [[Role level 3]] loadout with the [[Role level 6]] loadout for the [[Germany]] and [[US]] [[Anti-tank soldier]]
 - Gameplay/Features
 	- Added additional filtering options and improvements to [[Streamer mode]]
 	- Placing a deployable while at build limit will now replace the oldest existing deployable of the same kind
@@ -93,13 +96,13 @@
 	- [Fixed] [[Sniper]]s scopes reticles won't move while crouching or moving the camera in [[ADS]]
 	- [Fixed] The Start/Stop Engine UI will overlap the Exit Vehicle UI if both inputs are pressed simultaneously
 	- [Fixed] The 'Dropping Supplies' UI will overlap with the 'Switching Seats' UI if both inputs are pressed simultaneously
-	- [Fixed] Incorrect placement for the satchel when attempting to use it on the front curves of the RUS Heavy Tank
+	- [Fixed] Incorrect placement for the satchel when attempting to use it on the front curves of the [[Soviet]] Heavy [[Tank]]
 	- [Fixed] Player [[Corpse]]s block constructible blueprints from being built/upgraded
 	- [Fixed] Debug text "Army name" appears for a split second on the Unit Select screen
 	- [Fixed] The 660 [[Second]] (11 minute) cooldown for the player that initiates a vote to kick is not retained after leaving the server
 	- [Fixed] "Cancel Deployment" overlaps with the deploy timer in some non-English languages
 	- [Fixed] The Aspect Ratio Constraint Mode settings overlap with the UI arrows when playing in some non-English languages
-	- [Fixed] Debug text {STATE} is briefly visible when transitioning between seats in the [[Anti-tank gun]]
+	- [Fixed] Debug text `{STATE}` is briefly visible when transitioning between seats in the [[Anti-tank gun]]
 	- [Fixed] Losses count towards the Offensive Master and Warfare Master [[Achievement]] s
 	- [Fixed] Opening the map as a [[Commander]] will trigger the " [[Commander ability]]s" HINT to replay multiple times
 	- [Fixed] Both [[Recon vehicle]]’s [[Speedometer]]s read as 0KM/H when reversing.
@@ -111,7 +114,7 @@
 	- [Fixed] The Game Mode hint appears immediately upon joining a server
 	- [Fixed] Actions performed with Enter are performed when holding Alt.
 	- [Fixed] When driving [[Tank]]s through wheat fields the wheat stalks can be seen to clip into the tank interior
-	- [Fixed] When a hint is on screen, the player cannot interact with the [[Map]] or [[Commander ability]]s
+	- [Fixed] When a [[Hint]] is on screen, the player cannot interact with the [[Map]] or [[Commander ability]]s
 	- [Fixed] Calling in the [[Supply drop]] ability inside the Warm-Up blocking volume causes the [[Supplies]] to slide across the environment
 	- [Fixed] Equipping the PPSH-41 w/ Drum causes the player's left wrist to become misshapen
 	- [Fixed] Updated a number of outdated [[Field Manual]] entries
@@ -132,15 +135,15 @@
 	- [Fixed] Debug text will be displayed in the [[Field Manual]] if a mentioned keybinding is unbound
 	- [Fixed] Unbinding certain keybindings from a different page of the 'Keybindings' menu will cause inconsistent text to be displayed
 	- [Fixed] Player's name is flickering on the [[vehicle]] HUD
-	- [Fixed] Visual issue with tank reticles on ultrawide monitors
+	- [Fixed] Visual issue with [[Tank]] reticles on ultrawide [[Monitor]]s
 	- [Fixed] Leadership [[VoIP]] channel may fail for [[Officer]] role immediately after joining a server
 	- [Fixed] A player leaving the Enlist screen while a different Enlist screen tab is being loaded will see the results for that tab when returning to the Enlist screen
-	- [Fixed] If a player opens the [[Map]] and aims down sights at the exact same time, when they close the map they will [[ADS]] without pressing the key.
+	- [Fixed] If a player opens the [[Tactical map]] and aims down sights at the exact same time, when they close the map they will [[ADS]] without pressing the key.
 	- [Fixed] Reloading and opening/closing the map, while holding/releasing left mouse button, will make guns shoot without any player input
 	- [Fixed] Gun will continuously fire after placing an object then opening/closing the map
 	- [Fixed] Flickering VFX when aiming with the visual sphere aid in the [[Recon vehicle]] at different objects
-	- [Fixed] Holding [LMB], while tapping [W] or [SHIFT] button, triggers the weapon to fire
-	- [Fixed] [[Fuel]] and [[Manpower]] [[resource node]] hints will disappear after 1 [[Second]] when selected
+	- [Fixed] Holding  [[🖱LMB]] , while tapping [[⌨️W]] or  [[⌨️SHIFT]]  button, triggers the weapon to fire
+	- [Fixed] [[Fuel]] and [[Manpower]] [[Resource node]] hints will disappear after 1 [[Second]] when selected
 	- [Fixed] Jumping multiple times in a row causes player [[Camera]] to jerk during jump animation
 	- [Fixed] [[PTRS]] can destroy [[Outpost]]s and [[Garrison]]s
 	- [Fixed] [[Germany]] Heavy [[Tank]] is observed to slightly slide when parked horizontally on an angled surface
@@ -151,27 +154,27 @@
 	- [Fixed] Misaligned Terrain in the Front End background
 	- [Fixed] Flickering textures are present on the window frame of the [[US]] & [[Germany]] [[Recon vehicle]]s when driving
 	- [Fixed]  [[Field Manual]]  [[Sainte-Marie-du-Mont]] [[Map]] is outdated
-	- [Fixed] Discrepancy between cooldown of the tanks: [[Tiger]] and [[Jumbo 76]]
+	- [Fixed] Discrepancy between cooldown of the tanks: [[Tiger]] and [[Sherman 76]]
 	- [Fixed] When locked to a target in the [[Admin camera]], some keybinds on the UI are displayed incorrectly.
 	- [Fixed] [[Smoke grenade]] detonates again on respawn
 	- [Fixed] There is a non-functional Back button in the Personal Stats page of the [[Scoreboard]]
 	- [Fixed] There is an ineffectual scroll bar in the Gameplay Options [[Menu]]
-	- [Fixed] Inconsistency issue present when throwing grenades through hedges
-	- [Fixed] Flickering textures are present on the window frame of the US & German [[Recon vehicle]]s when driving
+	- [Fixed] Inconsistency issue present when throwing [[Grenade]]s through [[Hedge]] s
+	- [Fixed] Flickering textures are present on the window frame of the [[US]] & [[Germany]] [[Recon vehicle]]s when driving
 	- [Fixed] If a player in the last 3 [[Second]]s of deploying is team switched using the [[RCON]] tool they spawn on that location as a member of the other team
-	- [Fixed] The Change Role screen UI can briefly flicker and resize if the unit leader clicks on the screen background
+	- [Fixed] The Change Role screen UI can briefly flicker and resize if the [[Squad leader]] clicks on the screen background
 	- [Fixed] The Change Role screen UI can briefly flicker and resize starting with the second time the player enters the menu and clicks on the screen background
 	- [Fixed] Using RMB on the Front End background causes the UI SFX to be played
-	- [Fixed] 'Garrison' and 'Munitions Node' have the incorrect map key tooltips
+	- [Fixed]  [[Garrison]] and [[Munitions node]] have the incorrect map key tooltips
 	- [Fixed] Remove the word [[Hardcore]] from the [[Profanity filter]]
 	- [Fixed] The [[Text chat]] window is closed if the player has a [[Spawn]] location selected and it becomes unavailable
 	- [Fixed] Issue present with map tooltips when displayed outside of the map boundaries
 	- [Fixed] Switching loadouts in the Barracks and Change Role menu with a controller does not show the correct equipment
-	- [Fixed] Joining a server cannot be cancelled when using a [[Controller]]
+	- [Fixed] Joining a [[Server]] cannot be cancelled when using a [[Controller]]
 	- [Fixed] Changing the FX Quality setting can cause the first bullet shot to remain visible in FPP
 	- [Fixed] When a player creates a unit or exits the Change Role menu they will have no "Leave Unit" button
 	- [Fixed] Unable to dismantle the [[Airhead]] if it's deployed inside [[Barbed wire]]
-	- [Fixed] [[Field Manual]] The Elevate Up/Down keys in the Anti Tank Gun page are inverted
+	- [Fixed] [[Field Manual]] The Elevate Up/Down keys in the [[Anti-tank gun]] page are inverted
 	- [Fixed] [[Field Manual]] The Increase/Decrease Elevation keys in the Artillery page are inverted
 	- [Fixed] Enlist Screen - Controller has no function until mouse is clicked on this menu
 	- [Fixed] Barracks "Appearance" and "Loadout" buttons are not properly highlighted
@@ -208,7 +211,7 @@
 	- [Fixed] Multiple assets floating/misaligned
 	- [Fixed] Multiple assets with incorrect player collision
 	- [Fixed] Camera moves abruptly in FPP while moving on a stack of shells
-	- [Fixed] There is an LoD transition issue with a building row asset near a bridge
+	- [Fixed] There is an LoD transition issue with a building row asset near a [[Bridge]]
 	- [Fixed] Some sets of 3 Dragon Teeth assets can be destroyed by shooting them with any firearm
 	- [Fixed] A preplaced [[Belgian Gate]] can be destroyed with firearms
 	- [Fixed] Bullets fail to go through some holes in the bunker ruins
@@ -218,7 +221,7 @@
 	- [Fixed] Multiple assets with incorrect or misaligned bullet collision
 	- [Fixed] Multiple assets with incorrect bullet PFX/SFX
 	- [Fixed] Tessellation issue present on the muddy terrain throughout the map when the player is using [[ADS]]
-	- [Fixed] Player appears to be floating when viewed from third person view, when a player is prone inside a specific trench
+	- [Fixed] Player appears to be floating when viewed from third person view, when a player is prone inside a specific [[Trench]]
 	- [Fixed] Navigating far enough in the [[Water]] with a vehicle/character, the user can reach a "kill volume" which instantly kills and destroys the [[Vehicle]] /user
 - [[Foy]]
 	- [Fixed] Multiple assets floating/misaligned
@@ -251,14 +254,14 @@
 	- [Fixed] Multiple assets with incorrect vehicle collision
 	- [Fixed] Multiple assets with incorrect LoD transition distances
 	- [Fixed] Corrupted texture on a wooden door
-	- [Fixed] No splash SFX when walking through water in specific locations
+	- [Fixed] No splash SFX when walking through [[Water]] in specific locations
 - [[Purple Heart Lane]]
 	- [Fixed] Multiple assets floating/misaligned
 	- [Fixed] Multiple assets with incorrect player collision
 	- [Fixed] Multiple assets with incorrect LoD transition distances
 - Known Key Issues
-	- Character model's legs and [[Uniform]] can clip through the [[Soviet]] half-track
-	- [[Satchel]]s placed on on [[Vehicle]] tracks or barrels may deal less than the required damage to destroy the vehicle
+	- Character model's legs and [[Uniform]] can clip through the [[Soviet]] [[Half-track]]
+	- [[Satchel]]s placed on [[Vehicle]] tracks or barrels may deal less than the required [[Damage]] to destroy the vehicle
 	- [[Revive]]s are not being counted in [[Scoreboard]] or for [[Achievement]] progression
 - [[Screenshot]]
 	- ![u11_outflank_01.png](../assets/u11_outflank_01_1659039422165_0.png)

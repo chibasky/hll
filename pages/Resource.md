@@ -1,0 +1,8 @@
+- [[2022]]
+	- List of resources
+		- [[Manpower]]
+		- [[Munitions]]
+		- [[Fuel]]
+	- List of ways to acquire resources
+		- [[Ambient resource generation]]
+		- [[Resource node]]s

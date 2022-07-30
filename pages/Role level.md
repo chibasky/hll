@@ -1,0 +1,6 @@
+- [[2022 status]]
+	- List of significant role levels, where something usually changes
+		- [[Role level 3]]
+		- [[Role level 6]]
+		- [[Role level 9]]
+		-

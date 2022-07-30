@@ -1,1 +1,6 @@
-- The three-man crew of a [[Tank]].
+- [[2022 status]]
+	- The three-man crew of a [[Tank]].
+	- List of roles
+		- [[Tank commander]]
+		- [[Tank crewman]]
+		- [[Tank crewman]]

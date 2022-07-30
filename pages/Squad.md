@@ -1,4 +1,6 @@
-- List of squad types, correct at [[Jul 27th, 2022]]
-	- [[Infantry squad]]
-	- [[Recon squad]]
-	- [[Tank crew]]
+- [[2022 status]]
+	- List of squad types
+		- [[Infantry squad]]
+		- [[Recon squad]]
+		- [[Tank crew]]
+-

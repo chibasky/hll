@@ -1,0 +1,4 @@
+- List of node types in [[2022]]
+	- [[Fuel node]]
+	- [[Manpower node]]
+	- [[Munitions node]]

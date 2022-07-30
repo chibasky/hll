@@ -1,0 +1,11 @@
+- List of elements drawn in [[2022]]
+	- Position of each friendly...
+		- [[Airhead]]
+		- [[Anti-personnel mine]]
+		- [[Anti-tank mine]]
+		- [[Garrison]]
+		- [[Outpost]]
+		- [[Resource node]]
+	- [[River]]s
+	- [[Road]]s
+-

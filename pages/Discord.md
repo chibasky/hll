@@ -1,2 +1,2 @@
 - [[Links]]
-	- https://discord.gg/hellletloose
+	- HLL Discord: https://discord.gg/hellletloose

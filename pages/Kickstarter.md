@@ -1,0 +1,6 @@
+- [[Links]]
+	- Project address
+		- https://www.kickstarter.com/projects/blackmatter/hell-let-loose
+	- Project short URL
+		- http://bit.ly/HellLetLooseKS
+		- Found on ((62e54cfc-dd2e-4532-bd64-d5788eb758c9))

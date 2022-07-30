@@ -1,1 +1,7 @@
 - When one is destroyed it becomes a [[Vehicle wreck]].
+- [[2022 status]]
+	- List of vehicle types
+		- [[Half-track]]
+		- [[Recon vehicle]]
+		- [[Tank]]
+		- [[Truck]]

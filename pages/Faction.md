@@ -1,0 +1,4 @@
+- List of factions in [[2022]]
+	- [[Germany]]
+	- [[Soviet]] Union
+	- [[US]]
