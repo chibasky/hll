@@ -190,7 +190,7 @@
 
  :ref/linked-references-collapsed-threshold 50
 
- :favorites ["Update 12, Falling Dark" "Update 11, Outflank" "Update 7, Battle of Carentan" "How to take dummy notes?"]
+ :favorites ("Update 12, Falling Dark" "Update 11, Outflank" "update 10, the eastern front" "Update 7, Battle of Carentan" "How to take dummy notes?")
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
