@@ -1,0 +1,268 @@
+- [[Trailer]]
+	- {{video https://www.youtube.com/watch?v=S3hLu58KXg8}}
+- [[Changelog]]
+	- Disclaimer: there were 1500+ tracked changes to the game for Update 10. We’ve tried to include absolutely everything we can below with regard to them, and had to summarise smaller changes to fit within the word count. Any oversights are entirely accidental and not intentional.
+	- [[Eastern Front]]
+		- Added Stalingrad map
+		- Added Kursk map
+		- Added Katyusha Strike Commander ability
+		- Added [[Soviet]] uniforms
+		- Added ZIS-2 AT-Gun
+		- Added [[Soviet]] [[Artillery]] piece
+		- Added [[Soviet]] [[Vehicle]] s including:
+			- [[T-34]] medium [[Tank]]
+			- [[IS-1]] heavy [[Tank]]
+			- [[Ba-10]] [[Recon vehicle]]
+			- ZIS-5 truck
+		- Added [[Soviet]] weapons including:
+			- DP-27
+			- Mosin Nagant 1891
+			- Mosin Nagant M38
+			- Mosin Nagant 9130
+			- Mosin Nagant 9130 Scoped
+			- SVT-40
+			- SVT-40 Scoped
+			- PPSh-41
+			- PPSh-41 Drum Mag
+			- PTRS-41 Anti-Tank Rifle
+			- Nagant M1895 Revolver
+			- Tokarev TT33 Pistol
+			- RDG2 Smoke Grenade
+			- RG42 Frag Grenade
+			- [[Satchel]] Charge
+			- PMD-7 AP Mine
+			- TM35 AT Mine
+	- [[Western Front]]
+		- Added [[Sainte-Marie-du-Mont]] v2
+	- [[Metagame]]
+		- Removed [[Resource]] cost from [[Vehicle]] roster [[Spawn]]s
+			- Vehicles that are automatically spawned will no longer consume resources. This is designed to remove the uncontrollable Fuel cost to the Commander, to create greater strategic impact on vehicles spawned and resource handling.
+		- [[Resource node]] provide a flat rate income of +10 per 60 [[Second]]s per [[Resource node]]
+			- Based on feedback from the community, the additional gain of resource income that came with the control of enemy sectors was tipping the scale too far in one direction, resulting in a steamroll.
+		- Change to an [ambient resource gain]([[Ambient resource generation]]) of +10 per 60 [[Second]]s
+			- Because teams don’t have control over what sector they’re required to capture, it never really made sense to delegate specific resources to a sector. Resource gain tied to sector control created a compounding imbalance the further the attacking team pushed the defenders back, causing a steamroll.
+		- When a sector is captured the team capturing gains 25 of each [[Resource]] , the team losing loses 25 of each resource. This represents a non-compounding benefit/loss to the gaining or losing of a sector to prevent steamrolling but still reward [[Victory]] or [[Defeat]] in a sector.
+		- Changed the [[Encouraged]] ability to double [[Ambient resource generation]] for 5 minutes (300 [[Second]]s)
+			- This was required to bring the ability in line with the resource changes.
+		- Changed [[Offensive mode]] active sectors from 2 to 1
+		- Balanced starting [[Resource]]s
+		- Increased [[Commander ability]] costs
+		- Reduced [[Team]] limit on [[Resource node]]s from 4 to 3
+		- Increased [[Manpower]] bleed during [[Overtime]] from -1 to -5 to reflect new [[Resource]] values
+	- Armor
+	- For an in-depth explanation on the following changes read here: https://bit.ly/DevBrief135
+		- Added a new hitbox collision system
+		- Added a new [[Vehicle]] [[Physics]] system
+		- Added an [[Engine]] component to all vehicles
+		- [[Tank tracks]] do not transfer [[Damage]] to the [[Hull]] unless the shell continues to hit and penetrate the Hull armor
+		- Refactored the armour weapon/[[Ballistics]] system
+		- The switch seat [duration]([[Second]]) for [[Tank]]s is now dependent on its class
+		- The enter/exit [duration]([[Second]]) for [[Tank]]s is now half the switch seat duration
+		- Removed collision from [[Tank]] barrels
+		- Added [[Smart materials]] system for all [[Soviet]] vehicles
+		- Adjusted Armor collision behavior
+		- Adjusted Armor health values
+		- Adjusted Armor [[Damage]] values
+		- Reduced muzzle smoke from [[Tank]] barrels when firing
+		- Increased repair speed of [[Blowtorch]] & [[Repair station]]
+		- Improved FX for penetrating, non penetrating and ricocheting shells
+		- Improved reliability of projectile Impact/Ricochet FX
+		- HE shells can now damage [[Tank tracks]]
+	- Tweaked [[HQ]] automatic vehicle spawns to the following:
+		- HQ#1
+			- Light [[Tank]]
+			- [[Transport truck]]
+			- T-34/76 ([[Soviet]] only)
+		- HQ#2
+			- Medium Tank
+			- [[Supply truck]]
+			- [[Transport truck]]
+		- HQ#3
+			- [[Recon vehicle]]
+			- [[Transport truck]]
+	- Gameplay/Features
+		- Re-enabled bullets traveling the direction of the weapon’s barrel
+		- Enemies marked by the Recon plane/vehicle are now displayed to the Support role.
+		- Removed the ability to hip fire Machine Guns without bracing.
+		- Artillery dispersion increased to 2m-20m
+		- Satchel Charges can now be placed in friendly HQ sectors
+		- Updated Field Manual and Hints
+		- Reduced the height and density of foliage
+		- Updated Controller mapping for Infantry
+		- Added new Controller functionality
+		- Added a new Gun Crewman loadout to the AT role containing the AT-Gun
+		- Reduced the size of OPs and added a shine effect
+		- Improvements to Ultrawide support
+		- Slightly reduced crouched run speed
+		- Continued game-wide optimisation passes
+		- Optimised bombing run explosion
+		- Optimised TPP muzzle flash
+		- Optimised multiple VFX
+		- Increased Satchel Charge damage
+		- Removed distance limitation on AT-Guns
+		- Updated GER manpower nodes with authentic pattern
+		- Allowed reloading while falling to fix irritating bug when stepping off small steps while reloading.
+		- Adjusted Kar98k’s front sight
+		- Disabled the ability to reload Launchers while sprinting
+		- Improved the reliability of placing fortifications on certain terrain
+	- Animation
+		- Introduced a TPP flinch animation when a player is shot
+		- Improved the TPP vaulting animation
+	- HUD/UI
+		- Added the server name, gamemode and map name to the scoreboard (Can be toggled in settings)
+		- Redesigned the Main Menu UI
+		- Allowed players to mouse over a locked loadout to see its contents
+		- Spawn location list numbers start at #01 instead of #00
+		- The vote kick interface now uses the same pop up style as the invite to unit notifications
+		- Commander abilities are displayed in the Text Chat with their location when used by the Commander
+		- Added a keybind for dismissing Hints
+		- Updated tank component icons
+		- Updated sector icons
+		- Updated Controls options UI
+		- Updated the in-game loadout background
+		- Leaving a server now returns the player to the Enlist screen
+		- Enabled zooming in on the character in the Barracks
+		- Recolored Garrison and HQ map icons for better readability
+		- Added a “Ping” visual effect that highlights the player’s location when opening the tactical map
+	- SFX
+		- Added new SFX for multiple weapons
+		- Added new SFX for multiple vehicle engines
+		- Added SFX when vehicles collide with an object
+		- Added SFX when entering/exiting a vehicle
+		- Added SFX when switching seats in a vehicle
+		- Added SFX for Coaxial and Hull mg reloads
+		- Added SFX to Outposts and Garrisons
+		- Added SFX that signals the final 30 seconds of the match
+		- Improved SFX for penetrating, non-penetrating and ricocheting shells
+		- Lowered the volume on truck horns
+		- Replaced steady aim inhale sound with exhale sound
+	- Visual Improvements
+		- Updated the Community AA to produce a sharper image
+		- Reworked weapon Scopes to eliminate visual jittering (This is WIP and will continue to be improved upon in upcoming updates)
+	- [[Truck]]s
+		- [[Machine Guns]] are now able to damage Trucks
+		- [[Strafing Runs]] are now able to damage Trucks
+		- Improved ability to climb steep terrain
+	- Localisation
+		- Fixed many instances where a word or phrase was not localized in non-english languages
+		- Implemented localisation for achievements and rich presence
+	- [[Server administration]]
+		- Added an icon to display the player’s location while using the [[Admin camera]]
+		- Added the ability to adjust movement speed while using the [[Admin camera]] (Scroll wheel by default)
+		- Added the ability to zoom in/out while using the [[Admin camera]] (Q/E by default)
+		- Locking on to a vehicle in [[Admin camera]] now places it higher behind the vehicle
+	- Bug Fixes
+		- [Fixed] MG34 and MG42 are missing default zoom when ADS
+		- [Fixed] Players receive no damage when in the Artillery seats from Tanks' MG/Coaxial weapons
+		- [Fixed] German Recon Vehicles’ Coaxial MG34 firing VFX is misaligned with the barrel
+		- [Fixed] Player's are not awarded XP points if multiple level 0 ghost structures are upgraded to level 1 within the 60 seconds XP cooldown
+		- [Fixed] Placing small ammo, explosive ammo, or medical supplies box on any team uses the German Satchel placement animation
+		- [Fixed] On offensive mode, attackers are unable to place a garrison once the Defenders HQ becomes the active sector
+		- [Fixed] Certain projectiles have no collision with players who are seated in trucks
+		- [Fixed] From TPP, the cannon of the Tiger tank jitters when rotating
+		- [Fixed] Player can cancel a reload on the MG34 and Walther P38 by switching weapon
+		- [Fixed] Machine Gun reload animation does not play when leaving deployed state after beginning a reload
+		- [Fixed] The engineer can dismantle friendly HQ repair stations
+		- [Fixed] The speedometer of light tanks can be stuck between 6-11km/h
+		- [Fixed] The acceleration audio for the light tanks is incorrect if the user quickly shifts up gears whilst driving
+		- [Fixed] After initiating a vote to kick, pressing twice the "Y" or "N" button counts as a second vote for the vote initiator
+		- [Fixed] The placed airhead icon slightly overlaps with the dropping airhead icon
+		- [Fixed] AT-Gun scope is offset
+		- [Fixed] The title may crash when quitting the game after after a natural map transition
+		- [Fixed] If the player enters the Admin Camera while prone on the front of the tank causes the vehicle to fly
+		- [Fixed] Running over / Colliding with players in a vehicle causes a short repeated SFX / audio issue
+		- [Fixed] Multiple issues present on MG42 animations while bracing
+		- [Fixed] Multiple visual issues with the M1A1 Thompson weapon
+		- [Fixed] Accepting the request to join a unit after changing teams will put the player in the squad of the enemy team
+		- [Fixed] Supply Trucks are observed to slide slightly when on an angled surface and standing still
+		- [Fixed] Social media links are not appearing on Front End menu
+		- [Fixed] Changing stance to prone or crouched after vaulting can cause US players to appear standing when viewed in TPP
+		- [Fixed] When leaning using the M1 Carbine, player's hand goes through the gun
+		- [Fixed] Amount of aim offset for a Tank changes when the tank is at an angle
+		- [Fixed] Players are unable to place satchel charges on the treads of the enemy tanks
+		- [Fixed] The external cargo on the US Heavy 75 and Heavy 76 tanks have no projectile or bullet collision or passthrough functionality
+		- [Fixed] Locking on a vehicle while the vehicle is being destroyed, locks the camera inside the vehicle until the user unlocks it
+		- [Fixed] The "unlock from target" Admin Camera button has no functionality when the targeted vehicle is destroyed.
+		- [Fixed] Toggle Clip button "J" has reversed functionality for Admin Camera
+		- [Fixed] The Admin Camera HUD does not display the Sector Progress Bars
+		- [Fixed] The player still has collision with vehicles while using the Admin Camera mode
+		- [Fixed] The US Small Ammunition box, Medical Supplies box and Explosive Ammo box have identical models when held in hand
+		- [Fixed] Player can become stuck inside assets/terrain when revived in certain conditions
+		- [Fixed] Placing a deployable no longer takes priority over movement
+		- [Fixed] The satchel will float when placed on the front of the German Medium Tank
+		- [Fixed] Animation issue present when leaning and having a Bazooka or Panzerschreck equipped
+		- [Fixed] Various Player created structures are observed to not award any combat score when dismantled
+		- [Fixed] Spamming the "Join" button and spamming "Y" when popup message appears, on a locked Squad in the deployment screen can cause the player to crash the game
+		- [Fixed] Inconsistent level requirement for the "Raider" loadout in the Assault role between teams
+		- [Fixed] Blood VFX on player models has been observed to noticeably flicker
+		- [Fixed] The Enlist screen is inconsistent when referring to the US team
+		- [Fixed] Unit member names for Infantry Units are misaligned when displayed on the in-game HUD
+		- [Fixed] Map does not open with an "On Press" instead it opens with an "On Release" when using the default Map key
+		- [Fixed] Unable to switch off "Show chat for new message" toggle
+		- [Fixed] UI icon for favourited servers does not remain highlighted when selected on the 'Enlist' screen
+		- [Fixed] Pressing the default open map key [M] during an open text chat will open the in-game map
+		- [Fixed] Occasionally the user is unable to change the Fullscreen Resolution
+		- [Fixed] Redeploy Button is still accessible when dead on the KIA screen
+		- [Fixed] Enlist screen sometimes shows 'Text Block' placeholder when servers have not yet loaded
+		- [Fixed] When changing role from "Officer" to "Commander" without leaving your unit, the "Leader Settings" button remains on the deployment screen.
+		- [Fixed] Opening the "Barracks" for the first time after playing a game with one of the factions, the loadouts presented in the initial page are inverted for each role.
+		- [Fixed] The 'Deploy' button will remain red after selecting a new spawn point during the deployment countdown
+		- [Fixed] Switch Team button is usable for a split second when Team Switch is on cooldown
+		- [Fixed] Players will not receive the "Failed to Deploy" message when the spawn they are attempting to deploy on is destroyed
+		- [Fixed] Some Hints and Field Manual entries display debug text
+		- [Fixed] Hints will be interrupted if a newer hint is triggered
+		- [Fixed] Strong Point icons do not go grey when the sector is contested
+		- [Fixed] Text chat becomes non-functional if pressed and re-pressed while aiming down sights
+		- [Fixed] Changing a keybinding removes the player's ability to return to the frontend via the [Esc] key
+		- [Fixed] Many situations which should trigger hints do not
+		- [Fixed] [TPP] The satchel charge can clip through the player model when performing a climb animation
+		- [Fixed] [TPP] The US Supply Crate is clipping through the player model when performing vault/climb animation
+		- [Fixed] [TPP] The German and US resupply boxes are clipping through the player model when performing climb animation
+		- [Fixed] [TPP] The German Supply Crate is clipping through the player model when performing vault/climb animation
+		- [Fixed] [TPP] The animation for the Support Role holding the Supplies is misaligned with the Player's left hand
+		- [Fixed] [TPP] As Support, the Supplies placement animation is misaligned with the character model
+	- [[Utah Beach]]
+		- [Fixed] An instance of misaligned foliage textures
+	- [[Hill 400]]
+		- [Fixed] A rock which can be exploited to see through
+		- [Fixed] Several trees clipping through a stone fence
+	- [[Foy]]
+		- [Fixed] A [[Barbed wire]] asset with missing functionality
+		- [Fixed] An asset displaying a [[Pink]] texture when viewed from a distance
+		- [Fixed] Multiple misaligned assets
+	- [[Omaha Beach]]
+		- [Fixed] Invisible collision present in a specific area
+		- [Fixed] Multiple floating assets on the beach
+		- [Fixed] Multiple assets clipping into objects or terrain
+		- [Fixed] Multiple misaligned mudbanks
+		- [Fixed] A roof of a shed clipping through the side of the house next to it
+	- [[Carentan]]
+		- [Fixed] Z-Fighting visible on Brick wall texture
+		- [Fixed] Multiple clipping fences
+		- [Fixed] Gaps visible between Brick wall assets
+		- [Fixed] Multiple assets clipping into objects or terrain
+		- [Fixed] Section of misaligned dirt track
+		- [Fixed] Area on the map that vehicles can all get stuck on
+		- [Fixed] Deployable equipment can’t be placed on Sidewalk / pavement
+	- [[Hurtgen]]
+		- [Fixed] Multiple floating/misaligned assets
+		- [Fixed] LoD transition issue with a building row asset
+		- Sainte Mere Eglise
+		- [Fixed] Multiple locations where the player was able to become stuck
+	- [[Purple Heart Lane]]
+		- [Fixed] Multiple floating/misaligned assets
+		- [Fixed] Multiple assets clipping into objects or terrain
+		- [Fixed] The edges of certain parts of terrain are visible
+		- [Fixed] Invisible collision present in multiple areas of the map
+		- [Fixed] LoD issue present on the ground in areas with very shallow water
+	- Known Issues
+		- Below are known issues in U10 which have already been fixed in the upcoming Patch 16:
+			- The [[Supply crate (truck)]]s in the back of [[Supply truck]] have no bullet collision
+			- [[Sainte-Marie-du-Mont]] [[Offensive mode]] for [[Germany]]: [[Defender]]s can push until they reach the [[Attacker]]'s [[HQ]] if the first point is not captured.
+			- [[Sainte-Marie-du-Mont]] [[Offensive mode]] for [[US]]: Defenders are unable to access the entirety of the first initial HQ strongpoints.
+			- [[Foy]] [[Offensive mode]] for [[Germany]]: [[Attacker]]'s [[Commander]] is unable to [[Spawn]] [[Vehicle]]s on the right-side [[HQ]]
+			- Some performance hitches can occur on the [[Stalingrad]] map depending on density of location and specific hardware.
+			- Marine [[Uniform]] sleeves have a stretching issue in FPP.
+	- We will be fixing the following with a new method for [[Update 11, Outflank]]:
+		- Sniper scope reticles can become misaligned with the scope during certain animations
+	- We also want to reiterate that armour physics and driving experience is still a work in progress and will be subject to additional polish.
